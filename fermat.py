@@ -27,13 +27,13 @@ def mod_exp(x, y, N):
 
 def fprobability(k):
     # You will need to implement this function and change the return value.   
-    prob_success= math.pow(0.5,k)
+    prob_success= 1-math.pow(0.5,k)
     return prob_success
 
 
 def mprobability(k):
     # You will need to implement this function and change the return value.   
-    prob_success= math.pow(0.75,k) # probabily of failure is 1/4 i.e. 0.25
+    prob_success= 1-math.pow(0.25,k) # probabily of failure is 1/4 i.e. 0.25
     return prob_success
 
 
