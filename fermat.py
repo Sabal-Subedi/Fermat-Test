@@ -33,7 +33,7 @@ def fprobability(k):
 
 def mprobability(k):
     # You will need to implement this function and change the return value.   
-    prob_success= 1-math.pow(0.25,k) # probabily of failure is 1/4 i.e. 0.25
+    prob_success= 1-math.pow(0.25,k)
     return prob_success
 
 
